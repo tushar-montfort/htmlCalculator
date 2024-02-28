@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./calc.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <script src="./calc.js" type="text/javascript" defer></script>
+</head>
+<body>
+  <div id="calcBody">
+    <div id="displayWrapper">
+      <span id="displayText"></span>
+      <span id="cursor"></span>
+    </div>
+    <div id="nonCalcContainer">
+    <button class="nonCalc calcButton" id="buttonOn" >ON</button>
+    <button class="nonCalc calcButton" id="buttonC">C</button>
+    <button class="nonCalc calcButton" id="buttonBs">Bs</button>
+    <button class="nonCalc calcButton" id="buttonOff">OFF</button>
+  </div>
+  <div id="numContainer">
+    <button class="numCalc calcButton" id="button0">0</button>
+    <button class="numCalc calcButton" id="button1">1</button>
+    <button class="numCalc calcButton" id="button2">2</button>
+    <button class="numCalc calcButton" id="button3">3</button>
+    <button class="numCalc calcButton" id="button4">4</button>
+    <button class="numCalc calcButton" id="button5">5</button>
+    <button class="numCalc calcButton" id="button6">6</button>
+    <button class="numCalc calcButton" id="button7">7</button>
+    <button class="numCalc calcButton" id="button8">8</button>
+    <button class="numCalc calcButton" id="button9">9</button>
+    <button class="numCalc calcButton empty" id="button10">''</button>
+    <button class="numCalc calcButton empty" id="button11">''</button>
+  </div>
+  <div id="EqualContainer">
+    <button class= "calcButton" id="Equals">=</button>
+  </div>
+  <div id="DecimalContainer">
+    <button class= "calcButton" id="Decimal">.</button>
+  </div>
+  <div id="operandContainer">
+    <button class="operands calcButton" id="buttonAdd">+</button>
+    <button class="operands calcButton" id="buttonMinus">-</button>
+    <button class="operands calcButton" id="buttonMultiply">x</button>
+    <button class="operands calcButton" id="buttonDivide">/</button>   
+  </div>
+</body>
+</html>
